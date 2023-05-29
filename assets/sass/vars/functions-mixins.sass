@@ -1,0 +1,17 @@
+@mixin font-size-lh($size, $lh)
+  font-size: $size + px
+  line-height: $lh + px
+
+@mixin objectFit($size, $fit)
+  display: block
+  width: $size
+  height: $size
+  object-fit: $fit
+
+@mixin transition($param)
+  transition: $param $transition
+
+@mixin hover()
+  @include bp($hover)
+    &:hover
+      @content

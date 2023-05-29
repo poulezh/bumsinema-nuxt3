@@ -1,0 +1,27 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  id="Layer_1"
+  x="0px"
+  y="0px"
+  viewBox="0 0 1600 463"
+  style="enable-background:new 0 0 1600 463;"
+  xml:space="preserve"
+>
+<style type="text/css">
+	.st0{fill:#E7470B;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:23;stroke-opacity:0.1;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:12;stroke-opacity:4.000000e-02;}
+</style>
+<path class="st0" d="M-1248-24v487h4096V-24L800,416L-1248-24z" />
+<path class="st1" d="M-1248,0L800,440L2848,0" />
+<path class="st1" d="M-1248,50L800,490L2848,50" />
+<path class="st1" d="M-1248,100L800,540l2048-440" />
+<path class="st2" d="M-1248-66L800,374L2848-66" />
+<path class="st2" d="M-1248-114L638,291.2 M2848-114L962,291.2" />
+<path class="st2" d="M-1248-162L476,208.4 M2848-162L1124,208.4" />
+<path class="st2" d="M-1248-210L314,125.6 M2848-210L1286,125.6" />
+<path class="st2" d="M-1248-258L152,42.8 M2848-258L1448,42.8" />
+<path class="st2" d="M-1248-306L-10-40 M2848-306L1610-40" />
+</svg>

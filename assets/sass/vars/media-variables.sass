@@ -1,0 +1,41 @@
+$phoneS     : '(max-width: 374px)'
+$phone      : '(max-width: 575px)'
+$phablet    : '(max-width: 767px)'
+$tabletS    : '(max-width: 1023px)'
+$tablet     : '(max-width: 1279px)'
+$onlyDesktop: '(min-width: 1280px)'
+$desktopS   : '(max-width: 1599px)'
+$desktop    : '(max-width: 1919px)'
+$desktopLg  : '(min-width: 1920px)'
+$desktopPlus: '(min-width: 1921px)'
+$hover      : '(hover: hover) and (pointer: fine)'
+$hover-none : '(hover: none) and (pointer: coarse)'
+
+@mixin bp($point: null)
+  @media #{$point}
+    @content
+
+@mixin bps($mq...)
+  @each $point in $mq
+    @media #{$point}
+      @content
+
+/// Примеры использования:
+///
+/// 1. Для одного брэайкпоинта (bp = брэайкпоинт):
+///
+/// @param:
+///   phone
+///   phablet
+///   tabletS
+///   tablet
+///   desktop
+///
+/// @include bp(phone)
+///   ...
+/// }
+/// 2. Для нескольких брэйкпонитов:
+///
+/// @include bps($phablet, $tablet)
+///   ...
+/// }
