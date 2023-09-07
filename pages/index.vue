@@ -5,11 +5,11 @@
 </template>
 
 <script setup>
-const posters = [
-  { id: 1, src: "/img/poster1.jpg", url: "/" },
-  { id: 2, src: "/img/poster2.jpg", url: "/" },
-  { id: 3, src: "/img/poster1.jpg", url: "/" },
-];
+import { useGeneralStore } from "~/store/useGeneralStore";
+
+const generalStore = useGeneralStore();
+const posters = computed(() => generalStore.data.posters);
+
 </script>
 
 <style lang="scss" scoped></style>
